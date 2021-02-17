@@ -74,7 +74,4 @@ def update(title, author, year, isbn, idnum):
     con.close()
 
 connect()
-update('The moon', 'Neil', 1988, 696969, 5)
 
-print(view())
-print(search(author='John Smith'))
